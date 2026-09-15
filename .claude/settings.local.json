@@ -6,7 +6,9 @@
       "PowerShell($dirs = Get-ChildItem -Path \"C:\\\\Users\\\\owner\\\\creative-computing\" -Directory -Force | Where-Object {$_.Name -match \"^w\\\\d\"} | Select-Object -ExpandProperty Name | Sort-Object; Write-Host \"All weekly directories: $\\(@\\($dirs\\) -join ', '\\)\")",
       "Bash(where gh *)",
       "Bash(marp w12/w12.md --html)",
-      "Bash(marp w12/w12.md --pdf)"
+      "Bash(marp w12/w12.md --pdf)",
+      "mcp__claude_ai_Google_Drive__read_file_content",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\owner\\\\Dropbox\\\\01-01_KNUG\\\\01_강의_Lectures\\\\04_2026-1st_수_창의컴퓨팅입문\\\\01_학생과제업로드\\\\\" -File | Where-Object { $_.Extension -in \".mp4\", \".mov\" } | Select-Object Name | Sort-Object Name)"
     ]
   }
 }
